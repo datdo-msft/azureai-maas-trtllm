@@ -1,7 +1,5 @@
 # Azure AI MaaS - Llama + TRT-LLM
 
-Created: December 20, 2024 10:43 AM
-
 ## Llama 3.3 70B
 
 Follow these steps here to set up the environment (Docker container) for building and running the engines: [guidance-ai/llgtrt: TensorRT-LLM server with Structured Outputs (JSON) built with Rust](https://github.com/guidance-ai/llgtrt/tree/main?tab=readme-ov-file#building-or-pulling-docker-container)
@@ -109,7 +107,7 @@ Use the wheel provided in the email 🙂
 
 - Create the following yaml file, name it `benchmark_config.yaml` :
     
-    ```json
+    ```yaml
     schema_version: "1.0"
     description: Benchmark Llama 3.3 70B
     display_name: benchmark_llama_33_70B
