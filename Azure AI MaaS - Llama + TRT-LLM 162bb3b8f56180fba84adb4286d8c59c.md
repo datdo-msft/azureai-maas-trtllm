@@ -115,7 +115,7 @@ Use the wheel provided in the email 🙂
       endpoint_url: http://0.0.0.0:3001
       model_name: llama33_70b
       api_payload:
-        api_type: ChatCompletion
+        api_type: OpenAIChatCompletion
     api_validation:
       enabled : false
     perf_benchmark:
